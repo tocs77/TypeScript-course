@@ -8,7 +8,7 @@ function combine(input1, input2) {
     }
     return result;
 }
-var combiinedNumbers = combine(22, 45);
-console.log(combiinedNumbers);
+var combinedNumbers = combine(22, 45);
+console.log(combinedNumbers);
 var combinedStrings = combine('Hello ', 'there');
 console.log(combinedStrings);
