@@ -1,9 +1,8 @@
-function add(n1: number, n2: number): number {
-  return n1 + n2;
-}
+let userInput: unknown;
+let userName: string;
 
-function printResult(num: number): void {
-  console.log('Result: ' + num);
+userInput = 5;
+userInput = 'Bob';
+if (typeof userInput === 'string') {
+  userName = userInput;
 }
-
-printResult(add(5, 12));
